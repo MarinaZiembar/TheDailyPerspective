@@ -19,7 +19,7 @@ function News({onGetNewsByCategory, onGetLatestNews, categoryId, news}){
 
     return(
         <div className="col-lg-8 offset-lg-2 news-container">
-            {news.length === 9 &&
+            {news &&
                 <FeaturedNewsCard 
                     title={firstNew?.title}
                     img={firstNew?.img_url}
