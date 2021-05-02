@@ -2,7 +2,7 @@
   "name": "the-daily-perspective",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://marinaziembar.github.io/NewsRoom/",
+  "homepage": "https://marinaziembar.github.io/TheDailyPerspective/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
     "@testing-library/jest-dom": "^4.2.4",
