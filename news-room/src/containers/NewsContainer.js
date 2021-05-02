@@ -4,7 +4,7 @@ import News from '../components/News';
 
 const mapStateToProps = (state, ownProps) => ({
     categoryId: state.category,
-    news: state.news.slice(0,11)
+    news: state.news.slice(0,10)
   })
 
 const mapDispatchToProps = (dispatch, ownProps) => ({
