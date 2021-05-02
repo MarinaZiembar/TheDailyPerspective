@@ -1,0 +1,19 @@
+
+@import './header.css';
+@import './menu.css';
+@import './news.css';
+
+
+
+/* Colors
+rojo - #C53719
+gris - #151515 */
+
+
+body{
+    background-color:#c53719;
+}
+
+div.col-lg-11.col-10{
+    padding:0px;
+}
