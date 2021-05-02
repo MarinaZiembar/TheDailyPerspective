@@ -2,18 +2,26 @@
 @import './header.css';
 @import './menu.css';
 @import './news.css';
+@import './featured-card.css';
+@import './card.css';
+@import './button.css';
 
 
 
 /* Colors
-rojo - #C53719
-gris - #151515 */
+RED - #BE030A 
+BLUE - #005D77 */
 
 
 body{
-    background-color:#c53719;
+    background-color:#fff;
 }
 
-div.col-lg-11.col-10{
+html {
+    scroll-behavior: smooth;
+}
+
+.container-fluid{
     padding:0px;
+    overflow-x: hidden;
 }

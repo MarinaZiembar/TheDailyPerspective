@@ -1,0 +1,18 @@
+.go-to-top{
+    position:fixed;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    bottom:20px;
+    right:20px;
+    border-radius:100px;
+    width:60px;
+    height:60px;
+    background-color:#fff;
+    z-index:60;
+    box-shadow: 0px 10px 28px -9px rgba(0,0,0,0.21);
+}
+
+.go-to-top img{
+    width:38px;
+}

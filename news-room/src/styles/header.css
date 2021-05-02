@@ -1,26 +1,33 @@
 
 .header{
     width:100%;
-    position:fixed;
-    background-color: #c53719;
-    z-index:50;
+    height:235px;
+    background-color: #fff;
     display:flex;
-    justify-content: start;
+    flex-direction:column;
+    justify-content: center;
     align-items: center;
-    padding:15px 0px;
+    padding:25px 0px;
 }
 
 .header img{
-    width:250px;
+    width:400px;
 }
+
+
 
 
 
 @media (max-width: 768px){
     .header{
+        height:30vh;
+        align-items: center;
         justify-content: center;
+        width:100%;
     }
     .header img{
-        width:190px;
+        width:295px;
+        padding:0px 15px;
     }
+
 }

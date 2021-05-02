@@ -1,11 +1,13 @@
 import React from 'react';
+import Button from '../components/Button';
 import NewsContainer from '../containers/NewsContainer';
 
 
 function Home(){
     return(
         <div className="page">
-            <NewsContainer />
+            <NewsContainer />    
+            <Button/>
         </div>
     );
 }

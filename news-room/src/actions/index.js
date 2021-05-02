@@ -66,7 +66,7 @@ export const getLatestNews = date => {
             }
 
             dispatch(apiLoading(false))
-
+            
             return response
         })
         .then((response) => response.json())

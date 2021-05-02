@@ -1,0 +1,78 @@
+.featured-card{
+    height:520px;
+    border-radius: 40px;
+}
+
+.featured-card .overlay{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    align-content:space-between;
+    padding:50px;
+    backdrop-filter:grayscale(100%);
+}
+
+.featured-card .overlay .date, .featured-card .overlay .news-details{
+    width:100%;
+}
+
+.featured-card .overlay h1{
+    color:white;
+    font-weight: 300;
+    font-size: 60px;
+}
+
+.featured-card .overlay h2{
+    color:white;
+    font-weight: 500;
+    font-size: 35px;
+    margin-top:15px;
+    width:75%;
+}
+
+.featured-card .overlay .source{
+    color:white;
+    font-weight: 400;
+    font-size: 22px;
+    margin:0px;
+    font-style: italic;
+}
+
+.featured-card .overlay .category{
+    color:white;
+    width:auto !important;
+    background-color: rgba(255,255,255,0.4);
+    font-weight: 500;
+    font-size: 16px;
+    border-radius:30px;
+    padding:5px 10px;
+    margin:0px;
+}
+
+
+
+@media (max-width: 768px){
+    .featured-card{
+        height:40vh;
+        border-radius: 20px;
+    }
+    .featured-card .overlay{
+        padding:20px;
+    }
+    .featured-card .overlay h1{
+        font-size: 28px;
+    }
+    .featured-card .overlay h2{
+        font-size: 20px;
+        margin-top:10px;
+        width:100%;
+    }
+    .featured-card .overlay .source{
+        font-size: 16px;
+    }
+    .featured-card .overlay .category{
+        font-size: 12px;
+    }
+}

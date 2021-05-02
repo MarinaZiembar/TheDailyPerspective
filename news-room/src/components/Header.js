@@ -1,12 +1,14 @@
 import React from 'react';
-import logo from '../images/logo-white.svg';
+import MenuContainer from '../containers/MenuContainer';
+import logo from '../images/logo-black.svg';
 
 
 
 function Header(){
     return(
-        <div className="header">
+        <div className="header" id="header">
             <img src={logo} alt="logo"/>
+            <MenuContainer/>
         </div>
     );
 }
