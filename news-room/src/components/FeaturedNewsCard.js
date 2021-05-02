@@ -28,7 +28,7 @@ function FeaturedNewsCard(props){
                     </div>
                     <div className="news-details">
                         {
-                            (categoryId === 0 || category) && 
+                            (categoryId === 0) && 
                             (<span className="category"> 
                                 {category}
                             </span>)
