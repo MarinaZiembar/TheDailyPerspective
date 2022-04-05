@@ -36,7 +36,7 @@ export const getNewsByCategory = category => {
 
         dispatch(apiLoading(true))
 
-        fetch(`https://api.canillitapp.com/news/category/${category}`)
+        fetch(`127.0.0.1:4567/news/category/${category}`)
         .then((response) => {
             if (!response.ok) {
             throw Error(response.statusText)
@@ -59,7 +59,7 @@ export const getLatestNews = date => {
 
         dispatch(apiLoading(true))
 
-        fetch(`https://api.canillitapp.com/latest/${date}`)
+        fetch(`127.0.0.1:4567/latest/${date}`)
         .then((response) => {
             if (!response.ok) {
             throw Error(response.statusText)
