@@ -11,43 +11,43 @@ import Diseño from '../pages/Diseño';
 
 export const routes = [
     {
-        path: '/',
+        path: '',
         component: Home,
         label:"Home",
         query_data:"",
     },
     {
-        path: '/politica',
+        path: 'politica',
         component: Politica,
         label:"Politica",
         query_data:"Politica"
     },
     {
-        path: '/internacionales',
+        path: 'internacionales',
         component: Internacionales,
         label:"Internacionales",
         query_data:"Internacionales"
     },
     {
-        path: '/tecnologia',
+        path: 'tecnologia',
         component: Tecnologia,
         label:"Tecnologia",
         query_data:"Tecnologia"
     },
     {
-        path: '/espectaculos',
+        path: 'espectaculos',
         component: Espectaculos,
         label:"Espectaculos",
         query_data:"Espectaculos"
     },
     {
-        path: '/deportes',
+        path: 'deportes',
         component: Deportes,
         label:"Deportes",
         query_data:"Deportes"
     },
     {
-        path: '/diseño',
+        path: 'diseño',
         component: Diseño,
         label:"Diseño",
         query_data:"Diseño"
