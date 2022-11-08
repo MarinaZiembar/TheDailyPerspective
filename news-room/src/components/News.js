@@ -22,8 +22,8 @@ function News({onGetNewsByCategory, onGetLatestNews, category, news}){
             {news &&
                 <FeaturedNewsCard 
                     title={firstNew?.title}
-                    img={news?.urlToImage}
-                    source={news?.source?.name}
+                    img={firstNew?.image}
+                    source={firstNew?.source}
                     url={firstNew?.url}
                     category={category}
                 />
@@ -34,8 +34,8 @@ function News({onGetNewsByCategory, onGetLatestNews, category, news}){
                         <Col xs={12} lg={4} key={i}>
                             <NewsCard 
                                 title={news.title}
-                                img={news?.urlToImage}
-                                source={news?.source?.name}
+                                img={news?.image}
+                                source={news?.source}
                                 url={news.url}
                                 category={category}
                             />

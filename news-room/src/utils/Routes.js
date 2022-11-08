@@ -11,43 +11,43 @@ import Diseño from '../pages/Diseño';
 
 export const routes = [
     {
-        path: 'TheDailyPerspective',
+        path: '/TheDailyPerspective/',
         component: Home,
         label:"Home",
         query_data:"",
     },
     {
-        path: 'politica',
+        path: '/TheDailyPerspective/politica',
         component: Politica,
-        label:"Politica",
-        query_data:"Politica"
+        label:"Política",
+        query_data:"Política"
     },
     {
-        path: 'internacionales',
+        path: '/TheDailyPerspective/internacionales',
         component: Internacionales,
         label:"Internacionales",
-        query_data:"Internacionales"
+        query_data:"Internacional"
     },
     {
-        path: 'tecnologia',
+        path: '/TheDailyPerspective/tecnologia',
         component: Tecnologia,
-        label:"Tecnologia",
-        query_data:"Tecnologia"
+        label:"Tecnología",
+        query_data:"Tecnología"
     },
     {
-        path: 'espectaculos',
+        path: '/TheDailyPerspective/espectaculos',
         component: Espectaculos,
-        label:"Espectaculos",
-        query_data:"Espectaculos"
+        label:"Espectáculos",
+        query_data:"Espectáculos"
     },
     {
-        path: 'deportes',
+        path: '/TheDailyPerspective/deportes',
         component: Deportes,
         label:"Deportes",
-        query_data:"Deportes"
+        query_data:"Deporte"
     },
     {
-        path: 'diseño',
+        path: '/TheDailyPerspective/diseño',
         component: Diseño,
         label:"Diseño",
         query_data:"Diseño"

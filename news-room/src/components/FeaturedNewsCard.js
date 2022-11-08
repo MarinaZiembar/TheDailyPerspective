@@ -8,7 +8,7 @@ function FeaturedNewsCard(props){
     const {title, img, url, source, category } = props;
 
     const featuredCardStyle = {
-        background: img ? "linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('"+ img +"')" : "linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('"+ placeholder +"')",
+        backgroundImage: img ? "linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('"+ img +"')" : "linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('"+ placeholder +"')",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition:"center center",
@@ -20,8 +20,8 @@ function FeaturedNewsCard(props){
                 <div className="overlay">
                     <div className="date">
                         <h1>
-                            {
-                                category ||
+                            {category ?
+                                category :
                                 getCurrentTextualDate()
                             }
                         </h1>

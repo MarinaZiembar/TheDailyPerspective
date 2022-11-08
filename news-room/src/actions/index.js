@@ -36,7 +36,7 @@ export const getNewsByCategory = category => {
 
         dispatch(apiLoading(true))
 
-        fetch(`https://newsapi.org/v2/everything?q=${category}&pageSize=11&language=es&excludeDomains=elespanol.com&apiKey=1462eabbd1b34c598aa8dfffe6d5779f`)
+        fetch(`http://api.mediastack.com/v1/news?access_key=1d118e64a8bb471c61fa509198295741&languages=es&limit=11&keywords=${category}&sort=published_desc`)
         .then((response) => {
             if (!response.ok) {
             throw Error(response.statusText)
@@ -47,7 +47,7 @@ export const getNewsByCategory = category => {
             return response
         })
         .then((response) => response.json())
-        .then((news) => dispatch(apiSuccess(news.articles)))
+        .then((news) => dispatch(apiSuccess(news.data)))
         .catch(() => dispatch(apiError(true)))
     }
 }
@@ -59,7 +59,7 @@ export const getLatestNews = date => {
 
         dispatch(apiLoading(true))
 
-        fetch(`https://newsapi.org/v2/everything?sortBy=popularity&excludeDomains=elespanol.com&pageSize=11&language=es&apiKey=1462eabbd1b34c598aa8dfffe6d5779f`)
+        fetch(`http://api.mediastack.com/v1/news?access_key=1d118e64a8bb471c61fa509198295741&languages=es&limit=11&sort=popularity&categories=general`)
         .then((response) => {
             if (!response.ok) {
             throw Error(response.statusText)
@@ -70,7 +70,7 @@ export const getLatestNews = date => {
             return response
         })
         .then((response) => response.json())
-        .then((news) => dispatch(apiSuccess(news.articles)))
+        .then((news) => dispatch(apiSuccess(news.data)))
         .catch(() => dispatch(apiError(true)))
     }
 }
