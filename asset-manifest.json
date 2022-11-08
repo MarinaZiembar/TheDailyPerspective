@@ -1,27 +1,28 @@
 {
   "files": {
     "main.css": "/TheDailyPerspective/static/css/main.d88b9eab.chunk.css",
-    "main.js": "/TheDailyPerspective/static/js/main.7a935c9e.chunk.js",
-    "main.js.map": "/TheDailyPerspective/static/js/main.7a935c9e.chunk.js.map",
+    "main.js": "/TheDailyPerspective/static/js/main.42261e20.chunk.js",
+    "main.js.map": "/TheDailyPerspective/static/js/main.42261e20.chunk.js.map",
     "runtime-main.js": "/TheDailyPerspective/static/js/runtime-main.86bb72cf.js",
     "runtime-main.js.map": "/TheDailyPerspective/static/js/runtime-main.86bb72cf.js.map",
     "static/css/2.8d3f7698.chunk.css": "/TheDailyPerspective/static/css/2.8d3f7698.chunk.css",
-    "static/js/2.5caa7f0c.chunk.js": "/TheDailyPerspective/static/js/2.5caa7f0c.chunk.js",
-    "static/js/2.5caa7f0c.chunk.js.map": "/TheDailyPerspective/static/js/2.5caa7f0c.chunk.js.map",
+    "static/js/2.356f15ec.chunk.js": "/TheDailyPerspective/static/js/2.356f15ec.chunk.js",
+    "static/js/2.356f15ec.chunk.js.map": "/TheDailyPerspective/static/js/2.356f15ec.chunk.js.map",
     "index.html": "/TheDailyPerspective/index.html",
-    "precache-manifest.46ed8897329a917581fc579c1023931f.js": "/TheDailyPerspective/precache-manifest.46ed8897329a917581fc579c1023931f.js",
+    "precache-manifest.f86c16f5029f958b393432bcc1ba45e0.js": "/TheDailyPerspective/precache-manifest.f86c16f5029f958b393432bcc1ba45e0.js",
     "service-worker.js": "/TheDailyPerspective/service-worker.js",
     "static/css/2.8d3f7698.chunk.css.map": "/TheDailyPerspective/static/css/2.8d3f7698.chunk.css.map",
     "static/css/main.d88b9eab.chunk.css.map": "/TheDailyPerspective/static/css/main.d88b9eab.chunk.css.map",
-    "static/js/2.5caa7f0c.chunk.js.LICENSE.txt": "/TheDailyPerspective/static/js/2.5caa7f0c.chunk.js.LICENSE.txt",
+    "static/js/2.356f15ec.chunk.js.LICENSE.txt": "/TheDailyPerspective/static/js/2.356f15ec.chunk.js.LICENSE.txt",
     "static/media/chevron.svg": "/TheDailyPerspective/static/media/chevron.aa7d701f.svg",
-    "static/media/logo-black.svg": "/TheDailyPerspective/static/media/logo-black.85828ebd.svg"
+    "static/media/logo-black.svg": "/TheDailyPerspective/static/media/logo-black.85828ebd.svg",
+    "static/media/placeholder.jpg": "/TheDailyPerspective/static/media/placeholder.21d52073.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.86bb72cf.js",
     "static/css/2.8d3f7698.chunk.css",
-    "static/js/2.5caa7f0c.chunk.js",
+    "static/js/2.356f15ec.chunk.js",
     "static/css/main.d88b9eab.chunk.css",
-    "static/js/main.7a935c9e.chunk.js"
+    "static/js/main.42261e20.chunk.js"
   ]
 }

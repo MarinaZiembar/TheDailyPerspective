@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5e8f7b05356100112cee7fee25767556",
+    "revision": "e136108b6fa01b370a2462019ec9bc48",
     "url": "/TheDailyPerspective/index.html"
   },
   {
-    "revision": "d3562f59c943e6ce0485",
+    "revision": "583983b2ba60bc51c9a5",
     "url": "/TheDailyPerspective/static/css/2.8d3f7698.chunk.css"
   },
   {
-    "revision": "1290e714e371533318fb",
+    "revision": "bd7a12faf8bf8918e17b",
     "url": "/TheDailyPerspective/static/css/main.d88b9eab.chunk.css"
   },
   {
-    "revision": "d3562f59c943e6ce0485",
-    "url": "/TheDailyPerspective/static/js/2.5caa7f0c.chunk.js"
+    "revision": "583983b2ba60bc51c9a5",
+    "url": "/TheDailyPerspective/static/js/2.356f15ec.chunk.js"
   },
   {
     "revision": "c87e50d81cc7b5311525cc6fd5482ea5",
-    "url": "/TheDailyPerspective/static/js/2.5caa7f0c.chunk.js.LICENSE.txt"
+    "url": "/TheDailyPerspective/static/js/2.356f15ec.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1290e714e371533318fb",
-    "url": "/TheDailyPerspective/static/js/main.7a935c9e.chunk.js"
+    "revision": "bd7a12faf8bf8918e17b",
+    "url": "/TheDailyPerspective/static/js/main.42261e20.chunk.js"
   },
   {
     "revision": "87214c2d74a9e823b3e9",
@@ -34,5 +34,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "85828ebd08d7abd3939600d8ef79ef67",
     "url": "/TheDailyPerspective/static/media/logo-black.85828ebd.svg"
+  },
+  {
+    "revision": "21d5207362195e9e3db9eaeab6841a08",
+    "url": "/TheDailyPerspective/static/media/placeholder.21d52073.jpg"
   }
 ]);
