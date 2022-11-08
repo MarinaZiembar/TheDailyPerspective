@@ -14,42 +14,42 @@ export const routes = [
         path: '/',
         component: Home,
         label:"Home",
-        query_data:0,
+        query_data:"",
     },
     {
         path: '/politica',
         component: Politica,
         label:"Politica",
-        query_data:1
+        query_data:"Politica"
     },
     {
         path: '/internacionales',
         component: Internacionales,
         label:"Internacionales",
-        query_data:2
+        query_data:"Internacionales"
     },
     {
         path: '/tecnologia',
         component: Tecnologia,
         label:"Tecnologia",
-        query_data:3
+        query_data:"Tecnologia"
     },
     {
         path: '/espectaculos',
         component: Espectaculos,
         label:"Espectaculos",
-        query_data:4
+        query_data:"Espectaculos"
     },
     {
         path: '/deportes',
         component: Deportes,
         label:"Deportes",
-        query_data:5
+        query_data:"Deportes"
     },
     {
         path: '/diseño',
         component: Diseño,
         label:"Diseño",
-        query_data:6
+        query_data:"Diseño"
     },
 ]

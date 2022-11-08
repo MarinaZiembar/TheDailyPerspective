@@ -29,7 +29,6 @@ const news = (state = [], action) => {
   }
 }
 
-
 const category = (state = 0, action) => {
   switch (action.type){
     case 'CATEGORY_SELECTED':

@@ -3,8 +3,8 @@ import { getLatestNews, getNewsByCategory, } from '../actions/index';
 import News from '../components/News';
 
 const mapStateToProps = (state, ownProps) => ({
-    categoryId: state.category,
-    news: state.news.slice(0,10)
+    category: state.category,
+    news: state.news
   })
 
 const mapDispatchToProps = (dispatch, ownProps) => ({

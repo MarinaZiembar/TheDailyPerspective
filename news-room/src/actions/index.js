@@ -36,7 +36,7 @@ export const getNewsByCategory = category => {
 
         dispatch(apiLoading(true))
 
-        fetch(`127.0.0.1:4567/news/category/${category}`)
+        fetch(`https://newsapi.org/v2/everything?q=${category}&pageSize=11&language=es&excludeDomains=elespanol.com&apiKey=1462eabbd1b34c598aa8dfffe6d5779f`)
         .then((response) => {
             if (!response.ok) {
             throw Error(response.statusText)
@@ -47,7 +47,7 @@ export const getNewsByCategory = category => {
             return response
         })
         .then((response) => response.json())
-        .then((news) => dispatch(apiSuccess(news)))
+        .then((news) => dispatch(apiSuccess(news.articles)))
         .catch(() => dispatch(apiError(true)))
     }
 }
@@ -59,7 +59,7 @@ export const getLatestNews = date => {
 
         dispatch(apiLoading(true))
 
-        fetch(`127.0.0.1:4567/latest/${date}`)
+        fetch(`https://newsapi.org/v2/everything?sortBy=popularity&excludeDomains=elespanol.com&pageSize=11&language=es&apiKey=1462eabbd1b34c598aa8dfffe6d5779f`)
         .then((response) => {
             if (!response.ok) {
             throw Error(response.statusText)
@@ -70,7 +70,7 @@ export const getLatestNews = date => {
             return response
         })
         .then((response) => response.json())
-        .then((news) => dispatch(apiSuccess(news)))
+        .then((news) => dispatch(apiSuccess(news.articles)))
         .catch(() => dispatch(apiError(true)))
     }
 }

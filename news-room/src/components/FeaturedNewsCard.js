@@ -1,13 +1,14 @@
 import React from 'react';
 import {getCurrentTextualDate} from '../utils/Date';
+import placeholder from '../images/placeholder.jpg';
 
 
 function FeaturedNewsCard(props){
 
-    const {title, img, url, source, category, categoryId } = props;
+    const {title, img, url, source, category } = props;
 
     const featuredCardStyle = {
-        background: "linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('"+ img +"')",
+        background: img ? "linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('"+ img +"')" : "linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('"+ placeholder +"')",
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition:"center center",
@@ -20,19 +21,17 @@ function FeaturedNewsCard(props){
                     <div className="date">
                         <h1>
                             {
-                                categoryId === 0 ?
-                                getCurrentTextualDate() :
-                                category
+                                category ||
+                                getCurrentTextualDate()
                             }
                         </h1>
                     </div>
                     <div className="news-details">
-                        {
-                            (categoryId === 0) && 
-                            (<span className="category"> 
-                                {category}
-                            </span>)
-                        } 
+                        {!category &&
+                            <span className="category"> 
+                                Novedades
+                            </span>
+                        }
                         <h2> {title} </h2>
                         <p className="source"> {source} </p>
                     </div>

@@ -5,14 +5,14 @@ import {Row, Col} from 'react-bootstrap';
 import {getCurrentDate} from '../utils/Date';
 
 
-function News({onGetNewsByCategory, onGetLatestNews, categoryId, news}){
+function News({onGetNewsByCategory, onGetLatestNews, category, news}){
 
 
     useEffect(() => {
 
-        categoryId === 0 ? onGetLatestNews(getCurrentDate()) : onGetNewsByCategory(categoryId)
+        category === "" ? onGetLatestNews(getCurrentDate()) : onGetNewsByCategory(category)
 
-    }, [categoryId])
+    }, [category])
 
     
     let firstNew = news.shift();
@@ -22,11 +22,10 @@ function News({onGetNewsByCategory, onGetLatestNews, categoryId, news}){
             {news &&
                 <FeaturedNewsCard 
                     title={firstNew?.title}
-                    img={firstNew?.img_url}
-                    source={firstNew?.source_name}
+                    img={news?.urlToImage}
+                    source={news?.source?.name}
                     url={firstNew?.url}
-                    category={firstNew?.category}
-                    categoryId={categoryId}
+                    category={category}
                 />
             }
             <Row>
@@ -35,10 +34,10 @@ function News({onGetNewsByCategory, onGetLatestNews, categoryId, news}){
                         <Col xs={12} lg={4} key={i}>
                             <NewsCard 
                                 title={news.title}
-                                img={news.img_url}
-                                source={news.source_name}
+                                img={news?.urlToImage}
+                                source={news?.source?.name}
                                 url={news.url}
-                                category={news.category}
+                                category={category}
                             />
                         </Col>
                     )) 
