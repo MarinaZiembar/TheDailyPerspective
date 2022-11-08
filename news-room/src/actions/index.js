@@ -36,7 +36,7 @@ export const getNewsByCategory = category => {
 
         dispatch(apiLoading(true))
 
-        fetch(`http://api.mediastack.com/v1/news?access_key=1d118e64a8bb471c61fa509198295741&languages=es&limit=11&keywords=${category}&sort=published_desc`)
+        fetch(`https://api.mediastack.com/v1/news?access_key=1d118e64a8bb471c61fa509198295741&languages=es&limit=11&keywords=${category}&sort=published_desc`)
         .then((response) => {
             if (!response.ok) {
             throw Error(response.statusText)
@@ -59,7 +59,7 @@ export const getLatestNews = date => {
 
         dispatch(apiLoading(true))
 
-        fetch(`http://api.mediastack.com/v1/news?access_key=1d118e64a8bb471c61fa509198295741&languages=es&limit=11&sort=popularity&categories=general`)
+        fetch(`https://api.mediastack.com/v1/news?access_key=1d118e64a8bb471c61fa509198295741&languages=es&limit=11&sort=popularity&categories=general`)
         .then((response) => {
             if (!response.ok) {
             throw Error(response.statusText)
