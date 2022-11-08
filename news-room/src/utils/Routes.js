@@ -11,7 +11,7 @@ import Diseño from '../pages/Diseño';
 
 export const routes = [
     {
-        path: '',
+        path: 'TheDailyPerspective',
         component: Home,
         label:"Home",
         query_data:"",
