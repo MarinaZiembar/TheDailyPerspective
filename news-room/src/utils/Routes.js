@@ -14,42 +14,42 @@ export const routes = [
         path: '/TheDailyPerspective/',
         component: Home,
         label:"Home",
-        query_data:"",
+        query_data:"general",
     },
     {
-        path: '/TheDailyPerspective/politica',
+        path: '/TheDailyPerspective/politics',
         component: Politica,
-        label:"Política",
-        query_data:"Política"
+        label:"Stars",
+        query_data:"Stars"
     },
     {
-        path: '/TheDailyPerspective/internacionales',
+        path: '/TheDailyPerspective/travel',
         component: Internacionales,
-        label:"Internacionales",
-        query_data:"Internacional"
+        label:"Satellites",
+        query_data:"Satellites"
     },
     {
-        path: '/TheDailyPerspective/tecnologia',
+        path: '/TheDailyPerspective/technology',
         component: Tecnologia,
-        label:"Tecnología",
-        query_data:"Tecnología"
+        label:"Technology",
+        query_data:"Technology"
     },
     {
-        path: '/TheDailyPerspective/espectaculos',
+        path: '/TheDailyPerspective/entertainment',
         component: Espectaculos,
-        label:"Espectáculos",
-        query_data:"Espectáculos"
+        label:"Planets",
+        query_data:"Planets"
     },
     {
-        path: '/TheDailyPerspective/deportes',
+        path: '/TheDailyPerspective/sports',
         component: Deportes,
-        label:"Deportes",
-        query_data:"Deporte"
+        label:"Rockets",
+        query_data:"Rockets"
     },
     {
-        path: '/TheDailyPerspective/diseño',
+        path: '/TheDailyPerspective/art',
         component: Diseño,
-        label:"Diseño",
-        query_data:"Diseño"
+        label:"Asteroids",
+        query_data:"Asteroids"
     },
 ]

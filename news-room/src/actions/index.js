@@ -36,7 +36,7 @@ export const getNewsByCategory = category => {
 
         dispatch(apiLoading(true))
 
-        fetch(`https://api.mediastack.com/v1/news?access_key=1d118e64a8bb471c61fa509198295741&languages=es&limit=11&keywords=${category}&sort=published_desc`)
+        fetch(`https://api.spaceflightnewsapi.net/v4/articles?search=${category}`)
         .then((response) => {
             if (!response.ok) {
             throw Error(response.statusText)
@@ -47,7 +47,7 @@ export const getNewsByCategory = category => {
             return response
         })
         .then((response) => response.json())
-        .then((news) => dispatch(apiSuccess(news.data)))
+        .then((news) =>{ dispatch(apiSuccess(news.results))})
         .catch(() => dispatch(apiError(true)))
     }
 }
@@ -59,7 +59,7 @@ export const getLatestNews = date => {
 
         dispatch(apiLoading(true))
 
-        fetch(`https://api.mediastack.com/v1/news?access_key=1d118e64a8bb471c61fa509198295741&languages=es&limit=11&sort=popularity&categories=general`)
+        fetch(`https://api.spaceflightnewsapi.net/v4/articles?ordering=updated_at`)
         .then((response) => {
             if (!response.ok) {
             throw Error(response.statusText)
@@ -70,7 +70,7 @@ export const getLatestNews = date => {
             return response
         })
         .then((response) => response.json())
-        .then((news) => dispatch(apiSuccess(news.data)))
+        .then((news) => dispatch(apiSuccess(news.results)))
         .catch(() => dispatch(apiError(true)))
     }
 }

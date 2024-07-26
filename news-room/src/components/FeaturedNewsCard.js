@@ -29,7 +29,7 @@ function FeaturedNewsCard(props){
                     <div className="news-details">
                         {!category &&
                             <span className="category"> 
-                                Novedades
+                                Featured 
                             </span>
                         }
                         <h2> {title} </h2>
