@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/TheDailyPerspective/static/css/main.d88b9eab.chunk.css",
-    "main.js": "/TheDailyPerspective/static/js/main.36abc83d.chunk.js",
-    "main.js.map": "/TheDailyPerspective/static/js/main.36abc83d.chunk.js.map",
-    "runtime-main.js": "/TheDailyPerspective/static/js/runtime-main.86bb72cf.js",
-    "runtime-main.js.map": "/TheDailyPerspective/static/js/runtime-main.86bb72cf.js.map",
-    "static/css/2.8d3f7698.chunk.css": "/TheDailyPerspective/static/css/2.8d3f7698.chunk.css",
-    "static/js/2.356f15ec.chunk.js": "/TheDailyPerspective/static/js/2.356f15ec.chunk.js",
-    "static/js/2.356f15ec.chunk.js.map": "/TheDailyPerspective/static/js/2.356f15ec.chunk.js.map",
+    "main.css": "/TheDailyPerspective/static/css/main.0f7d4da4.chunk.css",
+    "main.js": "/TheDailyPerspective/static/js/main.6b77b710.chunk.js",
+    "main.js.map": "/TheDailyPerspective/static/js/main.6b77b710.chunk.js.map",
+    "runtime-main.js": "/TheDailyPerspective/static/js/runtime-main.eae6f264.js",
+    "runtime-main.js.map": "/TheDailyPerspective/static/js/runtime-main.eae6f264.js.map",
+    "static/css/2.7f1403ef.chunk.css": "/TheDailyPerspective/static/css/2.7f1403ef.chunk.css",
+    "static/js/2.34552f38.chunk.js": "/TheDailyPerspective/static/js/2.34552f38.chunk.js",
+    "static/js/2.34552f38.chunk.js.map": "/TheDailyPerspective/static/js/2.34552f38.chunk.js.map",
     "index.html": "/TheDailyPerspective/index.html",
-    "precache-manifest.529bdcdd69dc2ab0017ea9d7772016f3.js": "/TheDailyPerspective/precache-manifest.529bdcdd69dc2ab0017ea9d7772016f3.js",
+    "precache-manifest.b7b4006c5f515122595457b76e87d29f.js": "/TheDailyPerspective/precache-manifest.b7b4006c5f515122595457b76e87d29f.js",
     "service-worker.js": "/TheDailyPerspective/service-worker.js",
-    "static/css/2.8d3f7698.chunk.css.map": "/TheDailyPerspective/static/css/2.8d3f7698.chunk.css.map",
-    "static/css/main.d88b9eab.chunk.css.map": "/TheDailyPerspective/static/css/main.d88b9eab.chunk.css.map",
-    "static/js/2.356f15ec.chunk.js.LICENSE.txt": "/TheDailyPerspective/static/js/2.356f15ec.chunk.js.LICENSE.txt",
+    "static/css/2.7f1403ef.chunk.css.map": "/TheDailyPerspective/static/css/2.7f1403ef.chunk.css.map",
+    "static/css/main.0f7d4da4.chunk.css.map": "/TheDailyPerspective/static/css/main.0f7d4da4.chunk.css.map",
+    "static/js/2.34552f38.chunk.js.LICENSE.txt": "/TheDailyPerspective/static/js/2.34552f38.chunk.js.LICENSE.txt",
     "static/media/chevron.svg": "/TheDailyPerspective/static/media/chevron.aa7d701f.svg",
     "static/media/logo-black.svg": "/TheDailyPerspective/static/media/logo-black.85828ebd.svg",
     "static/media/placeholder.jpg": "/TheDailyPerspective/static/media/placeholder.21d52073.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.86bb72cf.js",
-    "static/css/2.8d3f7698.chunk.css",
-    "static/js/2.356f15ec.chunk.js",
-    "static/css/main.d88b9eab.chunk.css",
-    "static/js/main.36abc83d.chunk.js"
+    "static/js/runtime-main.eae6f264.js",
+    "static/css/2.7f1403ef.chunk.css",
+    "static/js/2.34552f38.chunk.js",
+    "static/css/main.0f7d4da4.chunk.css",
+    "static/js/main.6b77b710.chunk.js"
   ]
 }
